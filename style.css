@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+}
+html {
+    font-family: cursive;
+}
+
+.container {
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+body {
+    position: relative;
+    margin: 0;
+}
+header {
+    height: 72px;
+    width: calc(100% - 60px);
+    background-color: transparent;
+}
+header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    
+    z-index: 99;
+}
+header .container nav a {
+    color: black;
+    font-weight: 600;
+}
+.LOGO {
+    z-index: 99;
+}
+
+.home {
+    background-color: rgb(255, 208, 0);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.home .container {
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+}
+.home .left button {
+    padding: 10px 20px;
+    border-radius: 999999px;
+    border: none;
+    background-color: rgb(36, 84, 255);
+    color: white;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 14px;
+}
